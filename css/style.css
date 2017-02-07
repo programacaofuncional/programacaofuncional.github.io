@@ -431,7 +431,7 @@ ul {
 .text-rotator-bg {
     background: url("../img/bg/text-rotator/rotator-bg1.jpg") no-repeat fixed center center / cover ;
 }
-.hero-parallax-bg:before , .hero-particle-bg:before , .text-rotator-bg:before {
+.hero-parallax-bg:before , .hero-particle-bg:before , .text-rotator-bg:before , .static-bg:before {
     position: absolute;
     left: 0;
     top: 0;
@@ -454,7 +454,7 @@ ul {
     letter-spacing: 3px;
     letter-spacing: 0.2rem;
 }
-.hero-parallax-bg .slider-caption h1 , .hero-parallax-bg .slider-caption h5 , .hero-particle-bg .slider-caption h1 , .hero-particle-bg .slider-caption h5 , .text-rotator-bg .slider-caption h5 {
+.hero-parallax-bg .slider-caption h1 , .hero-parallax-bg .slider-caption h5 , .hero-particle-bg .slider-caption h1 , .hero-particle-bg .slider-caption h5 , .text-rotator-bg .slider-caption h5 , .static-bg .slider-caption h5 , .static-bg .slider-caption h1 {
     color: #fff;
 }
 .text-rotator-bg h1 {
