@@ -10,7 +10,6 @@ Developed and Designed By: ThemeBite
 [ JS TABLE OF CONTENT ]
 ------------------------------------
     1.0 - Parallax Effect
-    2.0 - PreLoader
     3.0 - Sticky Menu
     4.0 - Text-Rotator
     5.0 - jQuery Smooth Scroll
@@ -49,16 +48,6 @@ $(window).load(function() {
 });
 
 $(document).ready(function() {
-    // PreLoader
-    $("body").queryLoader2({
-        // Preloader options
-        backgroundColor: "#34495e",
-        barHeight: 2,
-        minimumTime: 1000,
-        fadeOutTime: 2000,
-        percentage: true,
-    });
-
     // Sticky Menu
     $(".header-area").sticky({
         topSpacing: 0
